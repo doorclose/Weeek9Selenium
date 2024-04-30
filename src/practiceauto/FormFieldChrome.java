@@ -19,8 +19,6 @@ public class FormFieldChrome {
         WebElement textbox  = driver.findElement(By.className("FormFields"));
         textbox.click();
 
-        //WebElement textbox = driver.findElement(By.name("name"));
-        //textbox.sendKeys("Kinjal");
     }
 
 }
